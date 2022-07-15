@@ -18,5 +18,5 @@ spec:
            name: argocd-server
            port:
              number: 80
-    host: argo-cd.127.0.0.1.nip.io
+    host: argo-cd.production.ibus-dev.es-si-os-gsn-28.k8s.dyn.nesc.nokia.net
 

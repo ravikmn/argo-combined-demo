@@ -16,7 +16,7 @@ spec:
         server: 
           ingress:
             hosts:
-              - acme.com
+              - argo-workflows.production.ibus-dev.es-si-os-gsn-28.k8s.dyn.nesc.nokia.net
             enabled: true
             ingressClassName: nginx
         controller:
