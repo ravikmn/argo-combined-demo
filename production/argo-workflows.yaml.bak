@@ -13,9 +13,7 @@ spec:
     targetRevision: HEAD
     helm:
       values: |
-        server:
-          extraArgs:
-            - --auth-mode=server          
+        server: 
           ingress:
             hosts:
               - argo-workflows.production.ibus-dev.es-si-os-gsn-28.k8s.dyn.nesc.nokia.net
